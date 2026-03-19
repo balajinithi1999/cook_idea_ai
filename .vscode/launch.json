@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "cook_idea_ai",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=GEMINI_KEY=AIzaSyBRb9d8wTuXf_miykbaAzVmXtoaL51_1k0"
+            ]
+        },
+        {
+            "name": "cook_idea_ai (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cook_idea_ai (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
