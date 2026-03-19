@@ -15,7 +15,7 @@ class FridgeScannerScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Cook Book AI"),
+        title: const Text("Cook Idea AI"),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: SafeArea(
